@@ -1,0 +1,6 @@
+*.root
+*.sw*
+main
+*.o
+output/
+*pyc
