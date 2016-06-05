@@ -6,6 +6,10 @@ from Framework.Core.Parser import option
 from Modules.PrefireAnalyzer import PrefireAnalyzer
 
 # ____________________________________________________________________________________________________ ||
+# ROOT bollocks
+ROOT.gROOT.SetBatch(ROOT.kTRUE)
+
+# ____________________________________________________________________________________________________ ||
 # Preparation
 process                 = Process()
 sequence                = Sequence()
